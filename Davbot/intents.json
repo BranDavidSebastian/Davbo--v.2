@@ -1,0 +1,90 @@
+{"intents": [
+        {"tag": "salutari",
+         "patterns": ["Salut", "Buna ziua", "Hei" ],
+         "responses": ["Bună ziua!","Salut!"],
+         "context_set": ""
+        },
+          {"tag": "Cf",
+         "patterns": ["Ce faci", "Cum esti", "Ce mai faci" ],
+         "responses": ["Sunt bine și gata să te ajut"],
+         "context_set": ""
+        },
+          {"tag": "larevedere",
+         "patterns": ["Papa", "Ne vedem mai tarziu", "La revedere", "O sa ies", "Sa ai o zi buna"],
+         "responses": ["Îmi pare rău că ieși", "Ne mai auzim", "La revedere!", "Adios"],
+         "context_set": ""
+        },
+        {"tag": "varsta",
+         "patterns": ["Cati ani ai?", "Ce varsta ai?", "Care este varsta ta?", "Ani?", "Varsta?", "câți ani ai"],
+         "responses": ["Sunt un robot, nu am vârstă dar creatorul meu are 22 de ani", "Sunt un robot, nu pot spune că am o vârstă."],
+         "context_set": ""
+        },
+        {"tag": "nume",
+         "patterns": ["Cum te numesti?", "Care este numele tau?", "Cum te cheama?", "Cum te cheamă"],
+         "responses": ["Mă numesc DavBot!", "Sunt DavChat!", "Sunt DavBot iar pe creatorul meu îl cheamă David."],
+         "context_set": ""
+        },
+            {"tag": "hobby",
+         "patterns": ["Care sunt hobby-urile tale?", "Cu ce te ocupi?", "Ce hobby-uri ai?", "ce îți place să faci?", "place faci"],
+         "responses": ["Tot ce pot face este să vorbesc cu ține!", "În general învăț lucruri noi și vorbesc"],
+         "context_set": ""
+        },
+
+
+          {"tag": "PrimaUnire",
+         "patterns": [" Cine a infaptuit prima unire a Principatelor Romane", " Cine a înfăptuit prima unire a Principatelor Române"],
+         "responses": ["Mihai Viteazul"],
+         "context_set": ""
+        },
+
+
+          {"tag": "RevIndustriala",
+         "patterns": [" Unde s-a declansat Revolutia industriala in sec.XVIII-XIX", " Unde s-a declanșat Revoluția industrială în sec.XVIII-XIX"],
+         "responses": ["Anglia"],
+         "context_set": ""
+        },
+
+          {"tag": "Holocaust",
+         "patterns": ["Ce a reprezentat holocaustul?", "Ce este holocaustul","Ce este holocaust" ],
+         "responses": ["Holocaustul este un termen utilizat pentru a descrie uciderea a aproximativ șase milioane de evrei în timpul celui de-al Doilea Război Mondial plănuit și executat de regimul național-socialist din Germania, condus de Adolf Hitler"],
+         "context_set": ""
+        },
+
+          {"tag": "ManastireaCoziaDomnitor",
+         "patterns": ["Ce domnitor este inmormantat la Manastirea Cozia", "Ce domnitor este înmormântat la Mănăstirea Cozia"],
+         "responses": ["Mircea Cel Bătrân"],
+         "context_set": ""
+        },
+
+          {"tag": "MareaSchisma",
+         "patterns": ["In ce an a avut loc Marea Schisma", "În ce an a avut loc Marea Schismă"],
+         "responses": ["În anul 1054"],
+         "context_set": ""
+        },
+
+          {"tag": "RomaRepublica",
+         "patterns": ["In ce an a devenit Roma republica", "În ce an a devenit Roma republică"],
+         "responses": ["În anul 509 înaintea erei noastre"],
+         "context_set": ""
+        },
+
+          {"tag": "Iluminismul",
+         "patterns": ["Ce este iluminismul"],
+         "responses": ["Iluminismul, numit și Epoca Luminilor sau Epoca Rațiunii, a fost o mișcare intelectuală, filozofică, ideologică și culturală, antifeudală, desfășurată în perioada pregătirii și înfăptuirii revoluțiilor din sec. XVII-XIX având drept scop crearea unei societăți „raționale”, prin răspândirea culturii, a „luminilor” în mase"],
+         "context_set": ""
+        },
+
+          {"tag": "StefanCelMare",
+         "patterns": ["Cine este Ștefan cel Mare?", "Cine este Stefan cel Mare?"],
+         "responses": ["Ștefan al III-lea (n. 1438-1439, Borzești - d. 2 iulie 1504, Suceava), supranumit Ștefan cel Mare a fost domnul Moldovei între anii 1457 și 1504. A fost fiul lui Bogdan al II-lea, domnind timp de 47 de ani, cea mai lungă domnie din epoca medievală din Țările Române."],
+         "context_set": ""
+        },
+
+          {"tag": "AniStefanCelMare",
+         "patterns": ["Intre ce ani a domnit Stefan cel Mare", "Între ce ani a domnit Ștefan cel Mare"],
+         "responses": ["Ștefan cel Mare a domnit între anii 1457 și 1504"],
+         "context_set": ""
+        }
+
+]
+}
